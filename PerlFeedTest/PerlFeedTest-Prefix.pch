@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PerlFeedTest' target in the 'PerlFeedTest' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

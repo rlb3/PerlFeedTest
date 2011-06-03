@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E13FCACF13990EAD00925963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13FCACE13990EAD00925963 /* Foundation.framework */; };
+		E13FCAD213990EAD00925963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E13FCAD113990EAD00925963 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E13FCAC813990EAD00925963 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E13FCACA13990EAD00925963 /* PerlFeedTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerlFeedTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13FCACE13990EAD00925963 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E13FCAD113990EAD00925963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E13FCAD413990EAD00925963 /* PerlFeedTest-Prefix.pch */ = {isa = PBXFileReference; path = "PerlFeedTest-Prefix.pch"; sourceTree = "<group>"; };
+		E13FCAD513990EAD00925963 /* PerlFeedTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PerlFeedTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E13FCAC713990EAD00925963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13FCACF13990EAD00925963 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E13FCABF13990EAD00925963 = {
+			isa = PBXGroup;
+			children = (
+				E13FCAD013990EAD00925963 /* PerlFeedTest */,
+				E13FCACD13990EAD00925963 /* Frameworks */,
+				E13FCACB13990EAD00925963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E13FCACB13990EAD00925963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E13FCACA13990EAD00925963 /* PerlFeedTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E13FCACD13990EAD00925963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E13FCACE13990EAD00925963 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E13FCAD013990EAD00925963 /* PerlFeedTest */ = {
+			isa = PBXGroup;
+			children = (
+				E13FCAD113990EAD00925963 /* main.m */,
+				E13FCAD513990EAD00925963 /* PerlFeedTest.1 */,
+				E13FCAD313990EAD00925963 /* Supporting Files */,
+			);
+			path = PerlFeedTest;
+			sourceTree = "<group>";
+		};
+		E13FCAD313990EAD00925963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E13FCAD413990EAD00925963 /* PerlFeedTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E13FCAC913990EAD00925963 /* PerlFeedTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13FCAD813990EAD00925963 /* Build configuration list for PBXNativeTarget "PerlFeedTest" */;
+			buildPhases = (
+				E13FCAC613990EAD00925963 /* Sources */,
+				E13FCAC713990EAD00925963 /* Frameworks */,
+				E13FCAC813990EAD00925963 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerlFeedTest;
+			productName = PerlFeedTest;
+			productReference = E13FCACA13990EAD00925963 /* PerlFeedTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E13FCAC113990EAD00925963 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E13FCAC413990EAD00925963 /* Build configuration list for PBXProject "PerlFeedTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E13FCABF13990EAD00925963;
+			productRefGroup = E13FCACB13990EAD00925963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E13FCAC913990EAD00925963 /* PerlFeedTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E13FCAC613990EAD00925963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13FCAD213990EAD00925963 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E13FCAD613990EAD00925963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E13FCAD713990EAD00925963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E13FCAD913990EAD00925963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerlFeedTest/PerlFeedTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E13FCADA13990EAD00925963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerlFeedTest/PerlFeedTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E13FCAC413990EAD00925963 /* Build configuration list for PBXProject "PerlFeedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13FCAD613990EAD00925963 /* Debug */,
+				E13FCAD713990EAD00925963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13FCAD813990EAD00925963 /* Build configuration list for PBXNativeTarget "PerlFeedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13FCAD913990EAD00925963 /* Debug */,
+				E13FCADA13990EAD00925963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E13FCAC113990EAD00925963 /* Project object */;
+}
